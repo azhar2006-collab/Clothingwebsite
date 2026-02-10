@@ -7,3 +7,10 @@ if (menu) {
             nav.style.display === "flex" ? "none" : "flex";
     });
 }
+function Menu() {
+    document.getElementById("nav");
+    nav.classList.toggle("show");
+    
+
+}
+
