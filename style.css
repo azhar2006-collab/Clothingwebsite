@@ -140,8 +140,8 @@ footer {
     color: white;
 }
 
-/* MOBILE */
-@media(max-width:468px) {
+@media (max-width :468px) {
+
     .features {
         flex-direction: column;
         gap: 20px;
@@ -151,18 +151,20 @@ footer {
         grid-template-columns: 1fr;
     }
 
+
     nav {
         display: none;
         flex-direction: column;
         background: white;
         position: absolute;
         top: 60px;
-        right: 20px;
+        
         padding: 15px;
         border: 1px solid #ddd;
     }
 
-    .menu {
-        display: block;
+    nav.show {
+        display: flex;
     }
 }
+
